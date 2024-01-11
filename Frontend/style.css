@@ -173,8 +173,22 @@ button:hover{
     }
 
     .banner2{
-      background-image:url("image/alexander-grey-FEPfs43yiPE-unsplash.jpg") ;
-      height: 400px;
+      background-image:url("image/the-tonik-5Lbyao5bzbc-unsplash.jpg") ;
+      background-size: cover;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width:50%;
+      height: 100%;
+    }
+    .hero-body{
+      position: absolute;
+      right: 0;
+      width: 45%;
+      top: 0;
+      bottom: 0;
+
     }
     .banner2 h2{
       color: rgb(113, 195, 250);
