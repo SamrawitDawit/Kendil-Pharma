@@ -1,4 +1,4 @@
-
+Kendil Pharma
 
 project title - Kendil Pharma Description: Kendil Pharma is a web application that enables pharmacists to manage their medication inventory by adding, deleting, and updating medicine information, while users can access the comprehensive list of medicines provided by pharmacists. It also employs secure authenticaion and autherization system.
 
