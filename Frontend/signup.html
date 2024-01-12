@@ -1,116 +1,56 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign up</title>
-  
-  <link rel="stylesheet" href="bulma.css">
-  <link rel="stylesheet" href="style.css">
-  
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="CSS/bulma.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body class="hero is-fullheight is-bold">
-  <center>
-    <section class=" banner2  pl-5">
-      <div class="mt-5">
-        <img class="mt-5 pt-5" src="image/Hospital(3).png" alt="">
-      </div>
-    <div>
-      
-      <img class="mt-5 pt-5" src="image/Kendil pharma(3).png" alt="">
-    </div><!--  -->
-    <h2 class="is-size-3 mt-5 pt-5">"Your Health, Our Priority"</h2>
-    
-    
-     
-    </section>
-    
-  </center>
-
-
-  
-  
-
-  
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <div class="columns is-centered mt-auto">
-        <div class="column is-half">
-          <center>
-            <h1 class="h1 is-size-1 has-text-success mt-5 is-centered mb-5 mt-5 ml-5">Welcome!</h1>
- 
-          <button class="toggle-form button is-success is-large mt-5 ml-5" onclick="toggleForm('adminForm')">Sign Up as a Customer</button>
-          <button class="toggle-form button is-success is-large mt-5 ml-5" onclick="toggleForm('userForm')">Sign Up as a Pharmacist</button>
-
-          </center>
-          
-          <div class="centered-form-container" id="adminForm-container">
-            <form class="main__form" id="adminForm">
-              <div class="field">
-                <label for="adminName" class="label has-text-black mt-5">User Name:</label>
-                <div class="control">
-  
-                  <input type="text" id="adminName" name="adminName" class="custom-input-width py-2" required>
-                </div>
-                <label for="adminEmail" class="label has-text-black mt-5">Email:</label>
-                <div class="control">
-                  <input type="text" id="adminEmail" name="adminEmail" class="custom-input-width py-2" required>
-                </div>
-                <label for="adminPassword" class="label has-text-black mt-5">Password:</label>
-                <div class="control">
-                  <input type="password" id="adminPassword" name="adminPassword" class="custom-input-width py-2" required>
-                </div>
-                <label for="adminConfirmPassword" class="label has-text-black mt-5">Confirm Password:</label>
-                <div class="control">
-                  <input type="password" id="adminConfirmPassword" name="adminConfirmPassword" class="custom-input-width py-2" required>
-                </div>
-              </div>
-              <!-- Admin form fields -->
-              <button class="main__submit-button button mt-5 mb-5 is-success" type="button" onclick="submitForm('adminForm')">Sign up</button>
-            </form>
-            <button class="close-form button is-danger" onclick="closeForm('adminForm')">Close</button>
-          </div>
-        </div>
-        <div class="column is-half">
-          <div class="centered-form-container" id="userForm-container">
-            <form class="main__form" id="userForm">
-              <div class="field">
-                <label for="userName" class="label has-text-black">Full Name:</label>
-                <div class="control">
-                  <input type="text" id="userName" name="userName" class="custom-input-width py-2" required>
-                </div>
-                <label for="userEmail" class="label has-text-black">Email:</label>
-                <div class="control">
-                  <input type="text" id="userEmail" name="userEmail" class="custom-input-width py-2" required>
-                </div>
-                <label for="userPassword" class="label has-text-black">Password:</label>
-                <div class="control">
-                  <input type="password" id="userPassword" name="userPassword" class="custom-input-width py-2" required>
-                </div>
-                <label for="userConfirmPassword" class="label has-text-black">Confirm password:</label>
-                <div class="control">
-                  <input type="password" id="userConfirmPassword" name="userConfirmPassword" class="custom-input-width py-2" required>
-                </div>
-                <label for="greenCard" class="label has-text-black">Attach your green card:</label>
+<body>
+    <section id="first" class="is-flex is-flex-direction-row">
+        <section class="banner column is-half custom-div is-flex is-align-items-center new-banner">
+            <div class="centered-div">
+            <center>
+                <div class="flex left-content">
+                    <h1 class="has-text-black is-size-3 h1 ml-6 pl-6">Already have an account ?</h1>
+                  <!-- <p class="has-text-black is-size-4 h1">Join thousands of satisfied customers by signing up for our pharmacy family.</p> -->
+                  <a href="signup.html"><button  class="h1 is-size-4 px-6 py-2 mt-5  has-text-weight-bold signup-button">Login</button></a>
+                       
+                </div> 
+            </center>
+              
+            </div>
+          </section>
+        
+          <section id="tom" class="column is-half tom-div">
+            <div class="box box-shadow box-shadow-large shadow-lg p-6 m-5 mt-5 mt-6">
+              <center>
                 <div>
-                  <input type="file" id="greenCard" name="greenCard" accept=".pdf, .doc, .docx">
+                  <img src="image/Hospital(3).png" alt="">
+                  <img src="image/Kendil pharma(3).png" alt="">
                 </div>
-              </div>
-              <!-- Pharmacist form fields -->
-              <button class="main__submit-button button mt-5 mb-5 is-success" type="button" onclick="submitForm('userForm')">Sign up</button>
-            </form>
-            <button class="close-form button is-danger" onclick="closeForm('userForm')">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="overlay" id="overlay"></div>
- 
+                <h1 class="h1 mb-5 is-size-3">Register</h1>
+              </center>
+          
+              <form>
+                <input id="emailInput" class="input px-6 py-2 mb-5 is-rounded is-border-solid is-border-gray" type="text" placeholder="UserName">
+                <input id="emailInput" class="input px-6 py-2 mb-5 is-rounded is-border-solid is-border-gray" type="text" placeholder="Email">
+                <input id="emailInput" class="input px-6 py-2 mb-5 is-rounded is-border-solid is-border-gray" type="text" placeholder="Password">
+                <select id="dropdown" class="input px-6 py-2 mb-5 is-rounded is-border-solid is-border-gray" type="text" placeholder="Role">
+                    <option value="option1">Pharmacist</option>
+                </select>
+                
+             </form>
 
-  <script src="script.js"></script>
-  
-</body>
+          
+              <div class="is-flex is-justify-content-between mt-5 login-btn">
+                <button id="signInButton"  class="h1 is-size-5 has-text-size-2 px-6 py-2 ml-5  has-text-weight-bold">Signup</button>
+                <p id="errorMessage" class="has-text-danger">Please fill in all required fields.</p>
+              </div>
+            </div>
+          </section>          
+    </section>
+    <script src="JS/script.js"></script>
+  </body>
 </html>

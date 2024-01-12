@@ -66,3 +66,5 @@ function createMedicationFormBox() {
   
   // Call the function to create medication form boxes on page load
   createMedicationFormBox();
+
+ 
