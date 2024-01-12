@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="bulma.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CSS/bulma.css">
+    <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <section id="first" class="is-flex is-flex-direction-row">
@@ -18,7 +18,7 @@
                   </div>
                   <h1 class="has-text-black is-size-3 h1">New Here?</h1>
                   <p class="has-text-black is-size-4 h1">Join thousands of satisfied customers by signing up for our pharmacy family.</p>
-                  <a href="signup.html"><button style="width: 50%;" class="h1 is-size-4 px-6 py-2 mt-5 has-text-white has-text-weight-bold">Sign Up</button></a>
+                  <a href="signup.html"><button  class="h1 is-size-4 px-6 py-2 mt-5  has-text-weight-bold signup-button">Sign Up</button></a>
                 
             </center>
               
@@ -40,30 +40,13 @@
                 <input id="passwordInput" class="input px-6 py-2 mb-5 is-rounded" type="password" placeholder="Password">
               </div>
           
-              <div class="is-flex is-justify-content-between mt-5">
-                <button id="signInButton" style="width: 50%;" class="h1 is-size-5 has-text-size-2 px-6 py-2 mr-5 has-text-white has-text-weight-bold">Login in</button>
-                <p id="errorMessage" class="has-text-danger" style="display: none;">Please fill in all required fields.</p>
+              <div class="is-flex is-justify-content-between mt-5 login-btn">
+                <button id="signInButton"  class="h1 is-size-5 has-text-size-2 px-6 py-2 ml-5  has-text-weight-bold">Login</button>
+                <p id="errorMessage" class="has-text-danger">Please fill in all required fields.</p>
               </div>
             </div>
-          </section>
-          
-          
+          </section>          
     </section>
-
-
-
-
-
-
-    
-    
-
-
-    
-
-
-   
-    
-    <script src="script.js"></script>
+    <script src="../User/script.js"></script>
   </body>
 </html>
