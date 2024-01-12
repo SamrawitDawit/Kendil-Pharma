@@ -135,6 +135,10 @@ button:hover{
 .left-content a{
   margin-left: 40px;
 }
+#error-message{
+  color: red;
+  font-size: large;
+}
 
 @media(max-width:760px){
   .custom-div {
