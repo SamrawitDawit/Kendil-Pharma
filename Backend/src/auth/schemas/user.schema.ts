@@ -2,7 +2,7 @@ import {Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 
 export enum Role{
     CLIENT = 'Client',
-    PHARMASCIT = 'Pharmascit',
+    PHARMACIST = 'Pharmacist',
 }
 @Schema({
     timestamps: true 
